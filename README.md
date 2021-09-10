@@ -1,2 +1,2 @@
 # BookManagementSystem
-SpringBoot, Maven, Thyme Leaf, and BootStrap
+SpringBoot, Maven, PostgreSQL, Thyme Leaf, and BootStrap
