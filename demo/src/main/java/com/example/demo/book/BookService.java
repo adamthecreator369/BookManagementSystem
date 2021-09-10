@@ -39,6 +39,7 @@ public class BookService {
         validateTitle(book.getTitle());
         validateAuthor(book.getAuthor());
         validateBookStatus(book.getStatus());
+        book.setStatus(book.getStatus().toUpperCase());
         Optional<Book> bookOptional = bookRepository.findBookByIsbn(book.getIsbn());
         if (bookOptional.isPresent()) {
             throw new IllegalStateException(
