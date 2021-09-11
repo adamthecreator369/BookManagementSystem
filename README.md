@@ -7,7 +7,7 @@ SpringBoot, Maven, PostgreSQL, Thymeleaf, and BootStrap
 
 <img width="1680" alt="update" src="https://user-images.githubusercontent.com/78386606/132923307-28dbd6c2-ebff-4f9c-b1b5-fa4a3bd24a4e.png">
 
-<img width="1680" alt="error" src="https://user-images.githubusercontent.com/78386606/132923199-ae29fb61-98e1-4652-811e-c664d5f15732.png">
+<img width="1680" alt="error page" src="https://user-images.githubusercontent.com/78386606/132931515-bcedf931-1fd6-46d9-8055-ed8b04b4a90a.png">
 
 <b>Creating the Postgres database</b>
 <br>
