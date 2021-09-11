@@ -13,8 +13,29 @@
         <a class="navbar-brand" th:href="@{/books}">Book Management System</a>
     </nav>
     <div class ="container">
-        <h1 style="margin-top:20px;margin-bottom:20px;">Database Modification Unsuccessful</h1>
-        <h3 th:text="${message}"/>
+        <h1 style="margin-top:20px;margin-bottom:20px;">System Error Report</h1>
+        <table class = "table table-striped table-bordered">
+            <tr>
+                <td>Date</td>
+                <td th:text="${timestamp}"/>
+            </tr>
+            <tr>
+                <td>Path</td>
+                <td th:text="${path}"/>
+            </tr>
+            <tr>
+                <td>Error</td>
+                <td th:text="${error}"/>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td th:text="${status}"/>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td th:text="${message}"/>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
