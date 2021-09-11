@@ -36,8 +36,6 @@ CREATE TABLE book (
   <br>
 );
 <br>
-\d book
-<br>
 GRANT ALL PRIVILEGES ON DATABASE books to yourusername;
 <br>
 GRANT ALL PRIVILEGES ON DATABASE books to postgres;
